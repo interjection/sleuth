@@ -1,5 +1,5 @@
 {
-	"name": "infinity-next/sleuth",
+	"name": "nextchan/sleuth",
 	"keywords": ["file", "type", "mime", "detection", "laravel"],
 	"license": "MIT",
 	"type": "library",
