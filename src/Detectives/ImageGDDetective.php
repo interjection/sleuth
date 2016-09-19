@@ -85,7 +85,7 @@ class ImageGDDetective implements DetectiveContract
 		$exif  = exif_imagetype($this->file);
 		$flash = ($exif === IMAGETYPE_SWF || $exif === IMAGETYPE_SWC);
 
-		if ($exif)
+		if ($flash)
 		{
 			return $this->closeCase("swf", "application/x-shockwave-flash");
 		}
