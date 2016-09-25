@@ -14,6 +14,7 @@ class FileSleuth
 		'InfinityNext\Sleuth\Detectives\ffmpegDetective',
 		'InfinityNext\Sleuth\Detectives\svgDetective',
 		'InfinityNext\Sleuth\Detectives\epubDetective',
+		'InfinityNext\Sleuth\Detectives\pdfDetective',
 	];
 	
 	/**
