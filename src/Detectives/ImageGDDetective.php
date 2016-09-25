@@ -76,6 +76,23 @@ class ImageGDDetective implements DetectiveContract
 	}
 
 	/**
+	 * Checks if this file is a PSD.
+	 *
+	 * @return boolean|null
+	 */
+	protected function leadPSD()
+	{
+		$exif  = exif_imagetype($this->file) === IMAGETYPE_PSD;
+
+		if ($exif)
+		{
+			return $this->closeCase("psd", "application/psd");
+		}
+
+		return null;
+	}
+
+	/**
 	 * Checks if this file is a SWF.
 	 *
 	 * @return boolean|null
