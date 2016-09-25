@@ -13,6 +13,7 @@ class FileSleuth
 		'InfinityNext\Sleuth\Detectives\ImageGDDetective',
 		'InfinityNext\Sleuth\Detectives\ffmpegDetective',
 		'InfinityNext\Sleuth\Detectives\svgDetective',
+		'InfinityNext\Sleuth\Detectives\epubDetective',
 	];
 	
 	/**
