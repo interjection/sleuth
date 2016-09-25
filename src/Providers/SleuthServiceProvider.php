@@ -20,7 +20,7 @@ class SleuthServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->app->bindShared('sleuth', function() {
+		$this->app->singleton('sleuth', function() {
 			return new FileSleuth();
 		});
 		
